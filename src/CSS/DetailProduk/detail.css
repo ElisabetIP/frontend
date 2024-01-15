@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-details {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .product-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .product-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-left: 7cm;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .product-details .price {
+    font-size: 20px;
+    color: #e44d26;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    width: 7cm;
+    height: 2cm;
+    background-color: #2d622e;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  button img {
+    width: 1.5cm;
+    margin-right: 5px;
+    vertical-align: middle;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  button h4 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  button:hover img {
+    opacity: 0;
+  }
+  
+  h4{
+    font-size: medium;
+    color: black;
+  }
+
+  button:hover h4 {
+    opacity: 1;
+  }
+  
+  button:hover {
+    background-color: #8d8d8d;
+  }
+  
